@@ -4,9 +4,18 @@
   "description": "Persistent Claude Agent SDK sessions (streaming-input mode): keep the CLI subprocess alive across turns for 8x prompt-cache efficiency, with per-turn results, interrupt/setModel, cache stats, and a per-project session pool.",
   "main": "index.js",
   "scripts": {
-    "example": "node example.js"
+    "example": "node example.js",
+    "test": "node --test"
   },
-  "keywords": [],
+  "keywords": [
+    "claude",
+    "claude-agent-sdk",
+    "session",
+    "prompt-cache",
+    "streaming-input",
+    "pool",
+    "telegram-bot"
+  ],
   "author": "Jeffrey0117",
   "license": "MIT"
 }
